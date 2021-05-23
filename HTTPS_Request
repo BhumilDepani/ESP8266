@@ -2,8 +2,8 @@
 #include <WiFiClientSecure.h>
 
 
-const char* ssid = "The flash"; // Name of the Host
-const char* password = "123456789"; // Password of the corresponding Host
+const char* ssid = "Your WiFi SSID name"; // Name of the Host
+const char* password = "Your WiFi password"; // Password of the corresponding Host
 
 const char* host = "api.github.com"; // Server from which data is to be fetched
 const int httpsPort = 443; // Default port for HTTPS 
